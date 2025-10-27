@@ -91,6 +91,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  padding: 0.8rem 1.5rem;
 }
 
 .nav-links {
