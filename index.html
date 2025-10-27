@@ -10,12 +10,22 @@
 </head>
 <body>
   <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Start</a></li>
+        <!--<li><a href="#about">Über uns</a></li>-->
+        <li><a href="#features">Funktionen</a></li>
+        <li><a href="#mission">Vision</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="home">
     <h1>Dr. MirrAI</h1>
     <p class="lead">Dein persönlicher KI-Assistent für Frauengesundheit.</p>
     <button class="cta-button" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">Warteliste beitreten</button>
-  </header>
-
-  <section class="features">
+    </section>
+  <section class="features" id="features">
     <div class="feature">
       <span>💬</span>
       <h3>Empathischer Dialog</h3>
@@ -38,7 +48,7 @@
     </div>
   </section>
 
-  <section class="mission">
+  <section class="mission" id="mission">
     <h2>Unsere Vision</h2>
     <p>Wir glauben, dass jede Frau Zugang zu smarter, respektvoller Gesundheitsberatung verdient – 
       jederzeit, ohne Scham, mit KI, die versteht.</p>
@@ -53,7 +63,7 @@
     </form>
   </section>
 
-  <footer>
+  <footer id="contact">
     <p>© 2025 MirrAI.me | <a href="impressum.html">Impressum</a> | <a href="#">Datenschutz</a></p>
     <p>Kontakt: <a href="mailto:mirrai.me@gmail.com">mirrai.me@gmail.com</a></p>
   </footer>
