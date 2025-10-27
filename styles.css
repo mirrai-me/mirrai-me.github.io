@@ -85,11 +85,6 @@ section:nth-child(even) {
   background-color: #f9f9f9;
 }
 
-section.home {
-  text-align: center;
-  background: linear-gradient(180deg, #f7e8ff, #ffffff);
-}
-
   section.features {
     display: grid;
     gap: 2rem;
