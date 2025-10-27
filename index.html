@@ -7,11 +7,30 @@
   <meta name="description" content="MirrAI.me bietet dir einen einfühlsamen KI-Assistenten, der dich bei Themen rund um Frauengesundheit unterstützt – diskret, empathisch und intelligent.">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link href="styles.css" rel="stylesheet">
+  <script>
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('nav-links');
+
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Optional: Menü schließen, wenn man auf einen Link klickt
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+</script>
 </head>
 <body>
   <header>
     <nav>
-      <ul>
+      <!-- Burger-Icon -->
+      <div class="burger" id="burger">
+        ☰
+      </div>
+      <ul class="nav-links" id="nav-links">
         <li><a href="#home">Start</a></li>
         <li><a href="#about">Über uns</a></li>
          <li><a href="#mission">Vision</a></li>
