@@ -89,6 +89,16 @@ section:nth-child(even) {
     padding: 4rem 1rem 3rem;
     background: linear-gradient(180deg, #f7e8ff, #ffffff);
   }
+
+.profile-pic {
+  width: 150px;          /* maximale Breite des Bildes */
+  height: 150px;         /* gleiche Höhe für quadratische Form */
+  object-fit: cover;     /* schneidet das Bild sauber zu */
+  border-radius: 50%;    /* macht es rund */
+  margin: 20px auto;     /* zentriert es */
+  display: block;        /* sorgt, dass das margin wirkt */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* weicher Schatten */
+}
   section.features {
     display: grid;
     gap: 2rem;
