@@ -180,6 +180,16 @@ section:nth-child(even) {
   display: block;        /* sorgt, dass das margin wirkt */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* weicher Schatten */
 }
+
+.logo {
+  width: 50px;          /* maximale Breite des Bildes */
+  height: 50px;         /* gleiche Höhe für quadratische Form */
+  object-fit: cover;     /* schneidet das Bild sauber zu */
+  border-radius: 50%;    /* macht es rund */
+  margin: 20px auto;     /* zentriert es */
+  display: block;        /* sorgt, dass das margin wirkt */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* weicher Schatten */
+}
   section.features {
     display: grid;
     gap: 2rem;
