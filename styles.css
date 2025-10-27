@@ -182,8 +182,8 @@ section:nth-child(even) {
 }
 
 .logo {
-  width: 50px;          /* maximale Breite des Bildes */
-  height: 50px;         /* gleiche Höhe für quadratische Form */
+  width: 160px;          /* maximale Breite des Bildes */
+  height: 160px;         /* gleiche Höhe für quadratische Form */
   object-fit: cover;     /* schneidet das Bild sauber zu */
   border-radius: 50%;    /* macht es rund */
   margin: 20px auto;     /* zentriert es */
