@@ -181,7 +181,32 @@ section:nth-child(even) {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* weicher Schatten */
 }
 
+.home-header {
+  display: flex;
+  align-items: center;         /* vertikal zentrieren */
+  justify-content: center;     /* horizontal zentrieren */
+  gap: 1rem;                   /* Abstand zwischen Logo und Text */
+  margin-bottom: 1rem;
+}
+
+/* Optional: Titel schöner darstellen */
+.home-header h1 {
+  font-size: 2.2rem;
+  color: #5b3b73;              /* sanftes Lavendellila */
+  margin: 0;
+}
+
+/* Logo etwas anpassen (kein Rund, wenn du es natürlich lassen willst) */
 .logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;         /* keine Verzerrung */
+  border-radius: 0;            /* kein runder Zuschnitt */
+  margin: 0;
+  box-shadow: none;
+}
+
+.logo-round {
   width: 160px;          /* maximale Breite des Bildes */
   height: 160px;         /* gleiche Höhe für quadratische Form */
   object-fit: cover;     /* schneidet das Bild sauber zu */
@@ -190,6 +215,7 @@ section:nth-child(even) {
   display: block;        /* sorgt, dass das margin wirkt */
   box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* weicher Schatten */
 }
+
   section.features {
     display: grid;
     gap: 2rem;
