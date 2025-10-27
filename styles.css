@@ -78,13 +78,17 @@ nav ul li a:hover {
 
 section {
   padding: 100px 20px;
-  min-height: 100vh;
 }
 
 section:nth-child(even) {
   background-color: #f9f9f9;
 }
 
+  section.home {
+    text-align: center;
+    padding: 4rem 1rem 3rem;
+    background: linear-gradient(180deg, #f7e8ff, #ffffff);
+  }
   section.features {
     display: grid;
     gap: 2rem;
