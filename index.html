@@ -9,21 +9,6 @@
   <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-  <script>
-  const burger = document.getElementById('burger');
-  const navLinks = document.getElementById('nav-links');
-
-  burger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-  });
-
-  // Optional: Menü schließen, wenn man auf einen Link klickt
-  document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', () => {
-      navLinks.classList.remove('active');
-    });
-  });
-</script>
   <header>
     <nav class="navbar">
       <div class="nav-container">
@@ -41,6 +26,21 @@
       </div>
     </nav>
   </header>
+  <script>
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('nav-links');
+
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+  // Optional: Menü schließen, wenn man auf einen Link klickt
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+  });
+</script>
   <section class="home" id="home">
     <h1>Dr. MirrAI</h1>
     <p class="lead">Dein persönlicher KI-Assistent für Frauengesundheit.</p>
