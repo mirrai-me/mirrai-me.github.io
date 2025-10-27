@@ -201,7 +201,7 @@ section:nth-child(even) {
   width: 120px;
   height: 120px;
   object-fit: contain;         /* keine Verzerrung */
-  border-radius: 0;            /* kein runder Zuschnitt */
+  border-radius: 50%;            /* runder Zuschnitt */
   margin: 0;
   box-shadow: none;
 }
