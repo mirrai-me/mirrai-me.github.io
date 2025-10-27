@@ -76,6 +76,14 @@ nav ul li a:hover {
   color: #0078ff;
 }
 
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+section:nth-child(even) {
+  background-color: #f9f9f9;
+}
 
   section.features {
     display: grid;
