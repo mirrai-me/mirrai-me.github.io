@@ -217,6 +217,7 @@ section:nth-child(even) {
 }
 
 section.impressum {
+  text-align: center;
   background: linear-gradient(180deg, #f7e8ff, #ffffff); 
   font-family: Arial, sans-serif; 
   line-height: 1.6; 
