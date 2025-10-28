@@ -18,8 +18,9 @@
   }
 
 body.daten {
-  background-color: #f7e8ff;
+   background-color: var(--bg);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(180deg, #f7e8ff, #ffffff); 
    margin: 0;
    font-family: "Inter", sans-serif;
    color: var(--text);
