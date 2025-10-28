@@ -218,11 +218,10 @@ section:nth-child(even) {
 
 section.impressum {
   background: linear-gradient(180deg, #f7e8ff, #ffffff); 
-  padding: 2rem; 
   font-family: Arial, sans-serif; 
   line-height: 1.6; 
-  max-width: 800px; 
   margin: auto;
+  padding: 4rem 1rem 3rem;
 }
 
   section.features {
