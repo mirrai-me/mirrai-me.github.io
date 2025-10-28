@@ -15,15 +15,48 @@
     line-height: 1.6;
     scroll-behavior: smooth; /* sorgt für sanftes Scrollen */
   }
-  header {
-    text-align: center;
-    padding: 4rem 1rem 3rem;
-    background: linear-gradient(180deg, #f7e8ff, #ffffff);
-  }
+ 
   h1 {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
   }
+
+ header {
+      background-color: #f7e8ff;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    header h1 {
+      margin: 0;
+      color: #5b3b73;
+      font-size: 2rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #6d4b82;
+      margin-top: 2rem;
+    }
+
+    a {
+      color: #7b54a0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
   p.lead {
     font-size: 1.2rem;
     color: var(--muted);
