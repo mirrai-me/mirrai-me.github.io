@@ -19,6 +19,7 @@
 
 body.daten {
   background-color: #f7e8ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
    margin: 0;
    font-family: "Inter", sans-serif;
    color: var(--text);
