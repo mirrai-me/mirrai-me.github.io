@@ -193,7 +193,7 @@ nav ul li a:hover {
   /* Links standardmäßig verstecken */
   .nav-links {
     display: none;
-    position: absolute;
+    position: static;
     top: 60px;
     right: 20px;
     background-color: white;
@@ -207,6 +207,11 @@ nav ul li a:hover {
   /* Wenn Menü aktiv, zeigen */
   .nav-links.active {
     display: flex;
+  }
+
+  .nav-links .lang-section {
+    position: static; /* languages appear under the links */
+    margin-top: 10px;
   }
 
   .nav-links li {
