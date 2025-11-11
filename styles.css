@@ -149,15 +149,19 @@ nav ul li a:hover {
 
 .nav-links {
   display: flex;
-  justify-content: space-between;
+  //justify-content: space-between;
+  justify-content: center;
   width: 100%;
   align-items: center;
   list-style: none;
   padding: 0 20px;
+  position: relative;
 }
 
 .nav-links .lang-section {
-  margin-left: auto; /* schiebt EN/DE ganz nach rechts */
+ // margin-left: auto; /* schiebt EN/DE ganz nach rechts */
+  position: absolute;
+  right: 20px;
 }
 
 .nav-links a {
