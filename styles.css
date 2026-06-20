@@ -1,3 +1,36 @@
+.post {
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.post p {
+  margin: 0 0 1.1em;
+}
+
+.epilog-separator {
+  margin: 3rem auto 2rem;
+  width: 40%;
+  border: none;
+  border-top: 1px solid currentColor;
+  opacity: 0.35;
+}
+
+.epilog {
+  margin-top: 2rem;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+.epilog h2 {
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-bottom: 1.5rem;
+}
+
 
   :root {
     --bg: #ffffff;
